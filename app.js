@@ -14,9 +14,10 @@ async function connect() {
     try{
  
         await mongoose.connect(mongodbUri);
-        console.log("connected to the database")
+        console.log("connected to the database");
+        
         app.listen(3000);
-        console.log("Server is running")
+        console.log("Server is running");
     }
     catch(error){
         console.log(error);
