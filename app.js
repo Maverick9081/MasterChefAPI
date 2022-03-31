@@ -1,6 +1,6 @@
 import express from "express";
 import mongoose from "mongoose";
-import event from "./Controllers/eventListener.js";
+import event from "./controllers/eventListener.js";
 import dotenv from "dotenv";
 dotenv.config();
 
